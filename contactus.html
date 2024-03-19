@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <meta name="description" content="Giving an understanding of sports in Ireland">
+        <meta name="keywords" content="hurling, camogie, sports, ireland">
+        <title>Contact us </title>
+        <link rel="stylesheet" href="Styles/Stylesheet.css">
+        <style>
+            body {background: rgb(204, 245, 196);
+            }
+            
+            
+        </style>
+        <link rel="icon" href="Images/favicon.jpg" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <header>
+            <img style="float:left; height:90px;width:90px; border-radius: 20px;" src="Images/logo.jpg" alt="logo"  >
+            <h1>GAA in Ireland</h1>
+        </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gaelicfootball.html">Gaelic Football</a> </li>
+                        <li><a href="hurling.html">Hurling</a></li>
+                        <li id="active"><a  href="contactus.html">Contact us</a> </li>
+                    </ul>
+                </nav>
+
+                <h2>More Information</h2>
+                <p id ="mainText">If you wish to recieve more information about the sports in Ireland please enter in the following information so that we can help.
+               </p>
+                <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" autofocus required><br>  
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="janedoe@email.com"><br>  
+                    <label for="phone_number">Phone Number:<span class="required">*</span></label>
+                    <input type="phone_number" name="phone_number" id="phone_number" required placeholder="(353)1234567890"><br>  
+        
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="gender" value="male">Male
+                    <input type="radio" id="gender" name="gender" value="female">Female
+                    <input type="radio" id="gender" name="gender" value="other" checked>Other<br>
+                    
+                    <label for="Newsletter">Would you like to recieve our newsletter:</label>
+                    <input type="radio" value="Yes"checked>Yes
+                    <input type="radio" value="No">No<br>
+
+                
+            <footer>
+                <nav>
+                    <ul>
+                       &copy; 2024 GAA website College assignment
+                    </ul>
+                </nav>
+            </footer>
+    </body>
+</html>
