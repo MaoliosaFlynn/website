@@ -17,6 +17,10 @@ h3{
     font: 1em 'Times New Roman';
     text-decoration: underline;
 }
+h4{
+    color:black;
+    font: 1em 'Times New Roman';
+}
 
 p{
     padding: 10px;
@@ -35,6 +39,11 @@ header{
 
 main{
     text-align: left 80%;
+}
+
+.videocontent{
+    height: 340px;
+    width: 600px;
 }
 
 .col_gaelic{
