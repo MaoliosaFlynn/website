@@ -19,7 +19,7 @@ h3{
 }
 
 p{
-    padding:10px;
+    padding: 10px;
 }
 
 header{
@@ -37,6 +37,15 @@ main{
     text-align: left 80%;
 }
 
+.col_gaelic{
+    column-count: 2;
+    column-rule-color: black;
+    column-rule-width: 2px;
+    column-gap: 80px;
+    
+}
+
+
 aside ul li a{
     text-align: right 18%;
     color: blue;
@@ -47,6 +56,15 @@ aside ul li{
     color: white;
     list-style-type:none ;
 }
+.required{
+    font-weight:bold;
+    color:red;
+}
+
+.textarea{
+    height:5%;
+    width:10%;
+    font-family:'Times New Roman', Times, serif}
 
 footer{
     border:1px solid rgb(183, 181, 181);
